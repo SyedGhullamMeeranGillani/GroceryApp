@@ -17,7 +17,25 @@ class FirestoreManager{
         db = Firestore.firestore()
     }
     
-    
+    func getAllStores(completion: @escaping (Result<[Store]? , Error>) -> Void){
+        db.collection("stores").getDocuments { snapshot, error in
+            
+            if let error = error {
+                completion(.failure(error))
+            }else{
+                if let snapshot = snapshot {
+                    let stores: [Store]? = snapshot.documents.compactMap { doc in
+                        var store = try? doc.data(as: Store.self)
+                        if store != nil{
+                            store!.id = doc.documentID
+                        }
+                        return store
+                    }
+                    completion(.success(stores))
+                }
+            }
+        }
+    }
     
     func save(store: Store, completion: @escaping( Result<Store?, Error>) -> Void){
         do{
