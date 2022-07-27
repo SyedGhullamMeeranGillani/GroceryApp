@@ -19,6 +19,7 @@
 		599A0BC0289126E900834B99 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 599A0BBF289126E900834B99 /* FirebaseFirestoreSwift */; };
 		599A0BC22891277000834B99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 599A0BC12891276F00834B99 /* GoogleService-Info.plist */; };
 		599A0BC428912F2600834B99 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599A0BC328912F2600834B99 /* Constants.swift */; };
+		59A7D50A28913AB6001DB3AB /* StoreListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A7D50928913AB6001DB3AB /* StoreListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		599A0BB8289124A200834B99 /* AddStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoreViewModel.swift; sourceTree = "<group>"; };
 		599A0BC12891276F00834B99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		599A0BC328912F2600834B99 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		59A7D50928913AB6001DB3AB /* StoreListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				599A0BB8289124A200834B99 /* AddStoreViewModel.swift */,
+				59A7D50928913AB6001DB3AB /* StoreListViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				599A0BB72891221B00834B99 /* FirestoreManager.swift in Sources */,
 				599A0BB9289124A200834B99 /* AddStoreViewModel.swift in Sources */,
 				599A0BC428912F2600834B99 /* Constants.swift in Sources */,
+				59A7D50A28913AB6001DB3AB /* StoreListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
