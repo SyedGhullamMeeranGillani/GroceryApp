@@ -31,7 +31,7 @@ class StoreListViewModel: ObservableObject {
         }
     }
     
- }
+}
 struct StoreViewModel {
     let store : Store
     
@@ -43,5 +43,8 @@ struct StoreViewModel {
     }
     var address: String{
         store.address
+    }
+    var items: [String]{
+        store.items ?? []
     }
 }
