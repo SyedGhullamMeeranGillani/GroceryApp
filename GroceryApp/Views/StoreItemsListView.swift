@@ -41,7 +41,7 @@ struct StoreItemsListView: View {
             //            }
         }
     }
-} 
+}
 
 struct StoreItemsListVIew_Previews: PreviewProvider {
     static var previews: some View {

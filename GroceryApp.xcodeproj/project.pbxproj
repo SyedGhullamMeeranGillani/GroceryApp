@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		592BF50A28915AF100DA2FC0 /* AddStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592BF50928915AF100DA2FC0 /* AddStoreView.swift */; };
 		592BF50C2891C28A00DA2FC0 /* StoreItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592BF50B2891C28A00DA2FC0 /* StoreItemListViewModel.swift */; };
-		592BF50E28927EC300DA2FC0 /* StoreItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592BF50D28927EC300DA2FC0 /* StoreItemsListView.swift */; };
+		592BF51028929A4000DA2FC0 /* StoreItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592BF50F28929A4000DA2FC0 /* StoreItemsListView.swift */; };
 		599A0BA12891218000834B99 /* GroceryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599A0BA02891218000834B99 /* GroceryAppApp.swift */; };
 		599A0BA32891218000834B99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599A0BA22891218000834B99 /* ContentView.swift */; };
 		599A0BA52891218200834B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599A0BA42891218200834B99 /* Assets.xcassets */; };
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		592BF50928915AF100DA2FC0 /* AddStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoreView.swift; sourceTree = "<group>"; };
 		592BF50B2891C28A00DA2FC0 /* StoreItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemListViewModel.swift; sourceTree = "<group>"; };
-		592BF50D28927EC300DA2FC0 /* StoreItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemsListView.swift; sourceTree = "<group>"; };
+		592BF50F28929A4000DA2FC0 /* StoreItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemsListView.swift; sourceTree = "<group>"; };
 		599A0B9D2891218000834B99 /* GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		599A0BA02891218000834B99 /* GroceryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryAppApp.swift; sourceTree = "<group>"; };
 		599A0BA22891218000834B99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			children = (
 				599A0BA22891218000834B99 /* ContentView.swift */,
 				592BF50928915AF100DA2FC0 /* AddStoreView.swift */,
-				592BF50D28927EC300DA2FC0 /* StoreItemsListView.swift */,
+				592BF50F28929A4000DA2FC0 /* StoreItemsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,11 +230,11 @@
 				599A0BB5289121E700834B99 /* Store.swift in Sources */,
 				592BF50C2891C28A00DA2FC0 /* StoreItemListViewModel.swift in Sources */,
 				599A0BA32891218000834B99 /* ContentView.swift in Sources */,
-				592BF50E28927EC300DA2FC0 /* StoreItemsListView.swift in Sources */,
 				599A0BA12891218000834B99 /* GroceryAppApp.swift in Sources */,
 				599A0BB72891221B00834B99 /* FirestoreManager.swift in Sources */,
 				599A0BB9289124A200834B99 /* AddStoreViewModel.swift in Sources */,
 				599A0BC428912F2600834B99 /* Constants.swift in Sources */,
+				592BF51028929A4000DA2FC0 /* StoreItemsListView.swift in Sources */,
 				592BF50A28915AF100DA2FC0 /* AddStoreView.swift in Sources */,
 				59A7D50A28913AB6001DB3AB /* StoreListViewModel.swift in Sources */,
 			);
